@@ -75,4 +75,28 @@ handle it automatically.
 
 # Contributing
 
-The main purpose of this repository is to continue evolving React core.
+The main purpose of this repository is to continue evolving React core,
+making it faster and easier to use.Development of React happens in the open on GitHub,
+and we are grareful to the community for contributing bugfixes 
+and improvements.Read below to learn how you can take part in improving React.
+
+## [Code of conduct](https://opensource.fb.com/showcase)
+
+Facebook has adopted a Code of Conduct that 
+we expect project participants to adhere to.
+Please read [the full text](https://opensource.fb.com/code-of-conduct/) so that you can 
+understand what actions will and will not be tolerated.
+
+## [Contributing Guide](https://reactjs.org/docs/how-to-contribute.html)
+
+Read our [contributing guide](https://reactjs.org/docs/how-to-contribute.html) 
+to learn about our development poocess,how to propose bugfixes 
+and improvements,and how to build an test your changes to React.
+
+## Good Frist lssues
+
+To help you get your feet wet and get you familiar with our 
+contribution process,
+we havea list of [good frist issues](https://github.com/facebook/react/labels/good%20first%20issue) 
+that contain bugs that have a relatively limited scope.
+This is a great place to get started.
