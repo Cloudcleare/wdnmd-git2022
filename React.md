@@ -100,3 +100,7 @@ contribution process,
 we havea list of [good frist issues](https://github.com/facebook/react/labels/good%20first%20issue) 
 that contain bugs that have a relatively limited scope.
 This is a great place to get started.
+
+## license
+
+React is [MIT licensed](https://github.com/facebook/react/blob/main/LICENSE).
