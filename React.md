@@ -47,3 +47,32 @@ Check out the [Getting Stared](https://reactjs.org/docs/getting-started.html)
   * [Contributing Guide](https://reactjs.org/docs/how-to-contribute.html)
 
 You can improve it by sending pull requests to [this repository](https://github.com/reactjs/reactjs.org).
+
+# Examples
+
+We have several examples [on the website](https://reactjs.org/).
+Here is the frist one to get you started:
+
+```JavaScript
+import {createRoot} from 'react-dom/client';
+
+function HelloMessage({ name })  {return <div>Hello (name)</div>;}
+
+const root = createRoot(document.getElementById('container'));
+
+root.render(<HelloMessage name="Taylor"/>);
+```
+
+This example will render "Hello Talor" into a container on the page.
+
+You'll notice that we used an HTML-like syntax;
+[we call it JSX](https://reactjs.org/docs/introducing-jsx.html).
+JSX is not required to use React,but it make codes more readable an writing HTML.
+If you're using React as a `<script> ` tag,
+read [this section](https://reactjs.org/docs/add-react-to-a-website.html#optional-try-react-with-jsx) 
+on integrating JSX;otherwise,the [recommended JavaScipt toolchains](https://reactjs.org/docs/create-a-new-react-app.html) 
+handle it automatically.
+
+# Contributing
+
+The main purpose of this repository is to continue evolving React core.
